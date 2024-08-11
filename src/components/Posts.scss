@@ -1,0 +1,14 @@
+.posts {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+
+    ul {
+        list-style: none;
+        list-style-type: none;
+    }
+}
+
+.post-item {
+    color: #473606;
+}

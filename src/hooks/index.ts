@@ -1,0 +1,1 @@
+export { useDataFetchQuery } from './useDataFetchQuery';
