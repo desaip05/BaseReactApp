@@ -1,0 +1,20 @@
+.createPostForm {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    margin-left: 20px;
+
+    input,
+    label {
+        display: block;
+    }
+
+    .createPostFormField {
+        margin: 10px;
+    }
+
+    .createPostFormSubmit {
+        margin: 10px;
+        width: 100px;
+    }
+}

@@ -3,8 +3,6 @@ import { useDataFetchQuery } from '../hooks';
 
 import './Posts.scss';
 
-
-
 export function PostsList() {
     const { isPending, error, data: posts } = useDataFetchQuery();
 
@@ -16,7 +14,6 @@ export function PostsList() {
         <>
             <h1>My posts</h1>
             <div className='posts'>
-
                 {!posts && <h2>No posts found</h2>}
                 {posts && posts.map(post =>
                     <ul key={post.id} className='post-list'>

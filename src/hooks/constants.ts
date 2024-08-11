@@ -5,3 +5,5 @@ export const DEFAULT_QUERY_OPTIONS = {
     staleTime: ONE_MINUTE_IN_MS,
     retry: 3,
 } as const;
+
+export const POSTS_FETCH_QUERY_KEY = 'posts';
